@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="User Info">
+        <EditTextPreference
+            android:id="@+id/userNamePrefs"
+            android:defaultValue="Default value"
+            android:key="user_name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Enter the app user name here..."
+            android:title="Enter user name" />
+        <RingtonePreference
+            android:defaultValue=""
+            android:key="ringtone_preference_1"
+            android:summary="Select the ringtone you like..."
+            android:title="Select Ringtone " />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="night_switch"
+            android:title="Theme" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
